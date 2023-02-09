@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+}
+.bg-img {
+  background-image: url("./images//3d-rendering-luxury-business-meeting-working-room-executive-office.jpg");
+  min-height: 790px;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-origin: content-box;
+}
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 95%;
+
+
+
+}
+.navtop{
+  margin-top: 20px;
+}
+.topnav a {
+  color: #1d1b1b;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+ 
+}
+.topnav a:hover {
+  border-bottom: 1px solid black;
+  color: black;
+}
+.brandName {
+  font-size: 40px;
+  margin-top: 7px;
+  font-weight: 200;
+  padding-left: 40px;
+}
+.top {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.centered {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.bottom {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imgBtn {
+  padding: 22px 35px;
+  font-size: 12px;
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.container2 span {
+  font-size: 2.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container2 hr {
+  border: 2px solid black;
+  width: 60px;
+  background-color: black;
+}
+
+.container2 p {
+  width: 75em;
+  text-align: center;
+}
+
+.container2 button {
+  padding: 13px 35px;
+  font-size: 12px;
+  border-radius: 30px;
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container3 {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container3 div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(39, 103, 163);
+  color: white;
+  padding: 40px;
+  row-gap: 20px;
+}
+.container3 div p {
+  width: 80%;
+  text-align: center;
+}
+.container3 div span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.container4 {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+.container4 hr {
+  border: 2px solid black;
+  width: 60px;
+  background-color: black;
+}
+.container4 span {
+  font-size: 2.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.container4 p {
+  width: 50em;
+  text-align: center;
+
+}
+.container4A {
+  margin-top: 17px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 70%;
+}
+.container4A div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container4A span {
+  font-size: 13px;
+  background-color: rgb(232, 234, 236);
+  width: 280px;
+  padding-bottom: 3px;
+}
+.icon {
+  border: 2.5px solid white;
+  border-radius: 50%;
+  padding: 15px;
+}
+.icon1 {
+  margin-right: 30px;
+  border: 2.5px solid black;
+  border-radius: 50%;
+  padding: 15px;
+}
+.icon2 {
+  margin-right: 30px;
+  border: 2.5px solid black;
+  border-radius: 50%;
+  padding: 15px;
+}
+.icon3 {
+  margin-right: 30px;
+  border: 2.5px solid black;
+  border-radius: 50%;
+  padding: 15px;
+}
+.container5 {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: row;
+  background-color: #313131;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  column-gap: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container5 div {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  row-gap: 20px;
+}
+.container5 div span {
+  font-size: 60px;
+}
+.container6 {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  column-gap: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container6 span {
+  font-size: 2.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.container6 p {
+  width: 50em;
+  text-align: center;
+}
+.container6 hr {
+  border: 2px solid black;
+  width: 60px;
+  background-color: black;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1em;
+}
+.container6 div span {
+  font-size: 15px;
+  padding-left: 20px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+.img img {
+  height: 300px;
+  width: 440px;
+}
